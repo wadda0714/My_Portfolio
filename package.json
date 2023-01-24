@@ -1,0 +1,26 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sass": "node-sass src/sass/ --output dest/css/ --output-style compressed --watch --source-map true"
+
+  },
+  "dependencies": {
+    "astro": "^1.9.0",
+    "sass": "^1.57.1",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-recess-order": "^3.1.0",
+    "stylelint-config-standard-scss": "^6.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
