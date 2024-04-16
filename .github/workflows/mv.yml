@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: |   
+      - run: |  
+          sudo cat dist/style.css | sed s//https:/wadda0714.github.io/My_Portfolio/style.css/https:/wadda0714.github.io/My_Portfolio/style.css
           sudo cp dist/index.html docs/index.html
           sudo cp dist/https:/wadda0714.github.io/My_Portfolio/style.css docs/style.css 
           git config user.name github-actions
