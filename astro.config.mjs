@@ -6,7 +6,7 @@ export default defineConfig({
     build: {
       rollupOptions: {
         output: {
-          assetFileNames: "style.css",
+          assetFileNames: "https://wadda0714.github.io/My_Portfolio/style.css",
         },
       },
     },
