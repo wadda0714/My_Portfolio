@@ -10,10 +10,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "sass": "node-sass src/sass/ --output dest/css/ --output-style compressed --watch --source-map true"
-
   },
   "dependencies": {
-    "astro": "^1.9.0",
+    "astro": "^1.9.2",
     "sass": "^1.57.1",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier-scss": "^0.0.1",
