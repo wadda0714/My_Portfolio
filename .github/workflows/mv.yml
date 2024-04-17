@@ -8,7 +8,7 @@ jobs:
       - run: |  
           sudo sed -i -e 's@/https@https@' dist/index.html 
           sudo cp dist/index.html docs/index.html
-          sudo cp dist/https:/wadda0714.github.io/My_Portfolio/style.css docs/css/style.css 
+          sudo cp dist/https:/wadda0714.github.io/My_Portfolio/css/style.css docs/css/style.css 
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
