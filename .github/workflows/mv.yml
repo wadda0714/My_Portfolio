@@ -7,7 +7,6 @@ jobs:
       - uses: actions/checkout@v3
       - run: |  
           sudo sed -i -e 's@/https@https@' dist/index.html 
-          sudo rm dist/index.html-e
           sudo cp dist/index.html docs/index.html
           sudo cp dist/https:/wadda0714.github.io/My_Portfolio/style.css docs/css/style.css 
           git config user.name github-actions
