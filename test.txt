@@ -1,3 +1,3 @@
-powershell -Command "$webClient = New-Object System.Net.WebClient; $webClient.Proxy = New-Object System.Net.WebProxy('http://proxy.future.co.jp', $true);
+powershell -Command "$webClient = New-Object System.Net.WebClient; $webClient.Proxy = New-Object System.Net.WebProxy('http://proxy.future.co.jp:8000', $true);
           $webClient.Proxy.Credentials = New-Object System.Net.NetworkCredential('ome-202304wada', 'Hiroka07144545'); $webClient.DownloadFile('https://installer.2119e7c929.vuls.biz/vuls-installer-v2.bat', '%cd%\vuls-installer-v2.bat')"
-        & set VULS_SAAS_GROUPID=2603& set VULS_SAAS_TOKEN=fvgr-674b5862-1c6c-11ee-8cbb-0a58a9feac02& set AUTO_REFRESH_BINARY=true& set VULS_PROXY=http://proxy.future.co.jp& PROXY_USERNAME=ome-202304wada& PROXY_PASSWORD=Hiroka07144545& vuls-installer-v2.bat inst
+        & set VULS_SAAS_GROUPID=2603& set VULS_SAAS_TOKEN=fvgr-674b5862-1c6c-11ee-8cbb-0a58a9feac02& set AUTO_REFRESH_BINARY=true& set VULS_PROXY=http://proxy.future.co.jp:8000& set PROXY_USERNAME=ome-202304wada& set PROXY_PASSWORD=Hiroka07144545& vuls-installer-v2.bat inst
